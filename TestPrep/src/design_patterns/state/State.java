@@ -4,4 +4,5 @@ public interface State {
     void onEnterState();
     void observedAppearance();
     int stateAttackDamage();
+    String toString();
 }
