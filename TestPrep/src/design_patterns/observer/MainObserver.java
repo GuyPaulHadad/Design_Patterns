@@ -1,6 +1,7 @@
 package design_patterns.observer;
 
 public class MainObserver {
+    //creating and using the observers
     public static void main(String[] args) {
         Weather weather = new Weather("Hot and Humid");
         Jerusalem jerusalem = new Jerusalem();

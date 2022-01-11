@@ -2,6 +2,12 @@ package design_patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;
+/*
+This is the class that Jerusalem and Mevaseret are observing.
+First we make a ArrayList that hold the observers (Mevaseret and Jerusalem).
+We use an add method to add them and update there weather to the current weather.
+Lastly when the weather changes we update their weather using notifyObservers.
+ */
 
 public class Weather {
     private String weather;
