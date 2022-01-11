@@ -32,4 +32,7 @@ public class Aang {
     public int getAttackDamage(){
         return state.stateAttackDamage();
     }
+    public String toString(){
+        return "Aang";
+    }
 }

@@ -11,12 +11,12 @@ public class NormalState implements State{
     }
     @Override
     public void onEnterState() {
-        System.out.println(String.format("%s is Becoming less powerful.","Aang"));
+        System.out.println(String.format("%s is Becoming less powerful.",aang.toString()));
     }
 
     @Override
     public void observedAppearance() {
-        System.out.println(String.format("%s Looks like a Ballerina.","Aang"));
+        System.out.println(String.format("%s Looks like a Ballerina.",aang.toString()));
     }
 
     @Override

@@ -13,12 +13,12 @@ public class AvatarState implements State{
     @Override
     public void onEnterState() {
         System.out.println(String.format("%s's Eyes and the Arrows across his body start to glow. He becomes Stronger.",
-                        "Aang"));
+                        aang.toString()));
     }
 
     @Override
     public void observedAppearance() {
-        System.out.println(String.format("%s Looks like an Avatar in his Avatar form.","Aang"));
+        System.out.println(String.format("%s Looks like an Avatar in his Avatar form.",aang.toString()));
     }
 
     @Override
